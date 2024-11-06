@@ -1,0 +1,17 @@
+{
+  "name": "taller-01",
+  "version": "1.0.0",
+  "description": "Tarea semana 18.1",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node --env-file=.env --watch app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.21.1",
+    "mariadb": "3.4.0"
+  }
+}
